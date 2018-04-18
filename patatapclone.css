@@ -1,0 +1,39 @@
+body, html{
+	height: 100%;
+	margin:0;
+}
+
+canvas{
+	width: 100%;
+	height: 100%;
+	background-color: grey;
+}
+h1{
+	font-size:25px;
+	text-align: center;
+	color:cornflowerblue;
+}
+#mobile{
+	margin: 0 auto;
+	display:none;
+	text-align: center;
+}
+
+@media (max-width: 450px) {
+	
+	body{
+		margin: 0 auto;
+	}
+	
+	h1{
+		font-size: 15px;
+	}
+	
+	#mobile{
+		display: block;
+	}
+	
+	p{
+		color:cadetblue;
+	}
+}
